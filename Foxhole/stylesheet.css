@@ -1,0 +1,124 @@
+/* h1 {
+  color: #C22529;
+  font-family: Verdana, Geneva, sans-serif;
+  border-bottom: 3px solid red;
+  background-color: #232323;
+  padding: 14px 16px;
+
+} */
+
+
+img {
+    width: 20%;
+    height: auto;
+    opacity: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+
+
+body {margin:0;
+  /*background-color: #232323; */
+  text-align: center;
+  color: white;
+  background: url(https://www.gamegrin.com/assets/games/foxhole/screenshots/foxhole-screenshot-0.jpg) no-repeat fixed center;
+  background-size: cover;
+
+}
+ul.nav {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px 0px;
+
+  overflow: visible;
+  background-color: #232323;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  font-family: 'Archivo Black', sans-serif;
+  left: 0px;
+  border-bottom: 3px solid #C22529;
+
+}
+
+ul.nav li {float: left;}
+
+ul.nav li a {
+
+  display: inline-block;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size:  18px;
+  padding-left: 28px;
+  padding-right: 28px;
+
+  color: #C22529;
+}
+
+ul.nav li a:hover {
+  background-color: #DAD6D4;
+  color: #C22529;
+
+}
+
+
+
+
+
+
+
+
+
+
+ul.nav li.icon {display: none;}
+
+@media screen and (max-width:1200px) {
+  ul.nav li:not(:first-child) {display: none;}
+  ul.nav li.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  ul.nav.responsive {position: relative;}
+  ul.nav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.nav.responsive li {
+    float: none;
+    display: block;
+    text-align: left;
+
+  }
+  ul.nav.responsive li a {
+    display: block;
+    text-align: inherit;
+  }
+}
+
+
+
+
+.b {
+  margin: 50px;
+  margin-top: 120px;
+  text-align: center;
+  padding: 24px 24px 24px 24px;
+  border-style: solid;
+  border-color: #CBC5C5;
+  background-color: black;
+  opacity: 0.75;
+}
+
+#inner {
+  opacity: 1;
+  color: #CBC5C5;
+
+}
